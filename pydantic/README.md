@@ -79,3 +79,52 @@ https://github.com/fbaptiste/pydantic-essentials
 
 
 
+## 2. Basics
+
+**Pydantic model**
+
+**Deserialization**
+
+**Serialization**
+
+**Type Coersion**
+
+**Required vs optional fields**
+
+**Nullable fields**
+
+**Inspecting fields**
+
+**JSON schema generation**
+
+## 3. Model configuration
+
+**Handling Extra fields**
+
+**Strict vs Lax Type Coersion**
+
+**Validating default values**
+
+**Validating assignments**
+
+**Mutability**
+
+**Coercing number to string**
+
+**Standardizing strings**
+
+**Handling Python nums**
+
+## 4. Field Aliasing, Serialization and Deserialization
+
+**Field Aliases and Default values**
+
+**Alias Generator Functions**
+
+**Deserializing by Field Name or Alias**
+
+**Serialization Aliases**
+
+**Validation Aliases**
+
+
