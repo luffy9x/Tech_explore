@@ -127,4 +127,43 @@ https://github.com/fbaptiste/pydantic-essentials
 
 **Validation Aliases**
 
+## 5. Specialized Pydantic Types
+
+**PositiveInt**
+
+**Constrained Lists**
+
+**UUID**
+
+**Date Related Types**
+
+**Network Types**
+
+## 6. Additional Field Features
+Field
+**Numerial Field Constraints**
+
+**String Constraints**
+
+**Default Factories**
+
+**Additional Field Configurations**
+- Frozen
+- default 
+- exclude
+
+## 7. Annotated Types
+
+**Annotated Types**
+With Annotated, you can create reusable constrained types
+
+**Type variables**
+Define a generic placeholder that can later be bound to any type.
+
+**String Constraints**
+- To lower
+- min/max length
+- strip_whitespace 
+...
+
 
