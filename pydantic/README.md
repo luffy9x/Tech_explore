@@ -167,3 +167,28 @@ Define a generic placeholder that can later be bound to any type.
 ...
 
 
+## 8. Custom Validators
+- Before validators : “clean up or normalize” data.
+- After validators : “enforce business logic”
+### After validators
+It alway run from first to last :
+- after_validator_1()
+- after_validator_2()
+- after_validator_3()
+
+### Before validators
+It alway run from last to first:
+- before_validator_3()
+- before_validator_2()
+- before_validator_1()
+
+### Combining before and after validators
+
+### Custom Validators using Annotated Types
+
+## Dependent Field Validators
+- In Pydantic v2, they’re done with @model_validator.
+- They let you enforce rules where one field depends on another.
+- Example: end_date must be after start_date, or password_confirm must match password.
+
+
