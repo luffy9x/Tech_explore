@@ -191,4 +191,24 @@ It alway run from last to first:
 - They let you enforce rules where one field depends on another.
 - Example: end_date must be after start_date, or password_confirm must match password.
 
+## 9. Properties and Computed Fields
+**Properties**
+- It's a function where you can access like an attribute and the calculation in the function is made on-the-fly
+**Cached_properties**
+- It's like Properties but it has the cached feature, you don't have to recaculate again. But you need to make sure that all the attribute which gonna be used in the calculation, is "frozen".
+- You can not "set" the property, only "get"
+
+**Computed Fields**
+
+- A computed field in Pydantic is a special kind of field that is calculated from other fields but is also treated like a real field when you export or serialize your model (.model_dump(), .model_dump_json()). It’s basically a property that shows up in .dict()/.json()
+- You can do 'alias' with "computed Fields"
+
+## 10. Custom Serializers using Annotated Types
+
+In Pydantic v2, you can control how fields are serialized (exported via .model_dump() or .model_dump_json()) by attaching a serializer function using **Annotated** + **PlainSerializer**. This lets you separate input validation from output representation.
+
+Why use this?
+- Security → mask passwords, tokens, sensitive fields.
+- Formatting → pretty-print dates, decimals, enums, money.
+- Separation of concerns → input validation vs. output serialization are independent.
 
