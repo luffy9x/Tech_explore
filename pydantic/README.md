@@ -212,3 +212,8 @@ Why use this?
 - Formatting → pretty-print dates, decimals, enums, money.
 - Separation of concerns → input validation vs. output serialization are independent.
 
+## 11. Complex models
+
+### Model Compositions
+
+### Model inheritance
