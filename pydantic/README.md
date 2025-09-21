@@ -217,3 +217,21 @@ Why use this?
 ### Model Compositions
 
 ### Model inheritance
+
+## 12. Pydantic Applications
+
+### Consuming a REST API
+
+### Ingesting a CSV file
+
+### Validating Function Arguments
+@validate_call
+
+### Model code generators
+
+In Pydantic v2, model code generators are tools that help automatically generate Pydantic models from other data formats or schemas, such as:
+- OpenAPI (Swagger) specs
+- JSON Schema
+- SQL databases
+- Type annotations (for type checking)
+- External tools like datamodel-code-generator
