@@ -10,3 +10,13 @@ You’ll see:
 ```
 {"message": "Hello, World!"}
 ```
+
+
+
+# If you want to use streamlit
+
+# Build image
+docker build -t streamlit-hello .
+
+# Run container
+docker run -d -p 8501:8501 streamlit-hello
